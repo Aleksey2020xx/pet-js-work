@@ -1,0 +1,126 @@
+body.active {
+  overflow: hidden;
+}
+
+.container-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.popup__form {
+  position: relative;
+  width: 400px;
+  max-height: 100%;
+  padding: 50px;
+  padding-bottom: 25px;
+  background-color: #fff;
+}
+
+.popup__form input {
+  padding: 10px;
+}
+
+.popup__form button {
+  padding: 10px;
+  outline: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: rgba(16, 37, 58, 0.695);
+  color: #fff;
+}
+
+.popup__span {
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(158, 35, 35);
+}
+
+.form__closed {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.form-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.form-search input {
+  padding: 10px;
+}
+
+.span-search {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.label__span {
+  margin-bottom: 5px;
+}
+
+.label:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.table__tr, .table__tr td {
+  height: 50px;
+}
+
+table {
+  height: 100%;
+  width: 70%;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.table__tr {
+  background-color: rgb(226, 226, 226);
+}
+
+.table__tr:nth-child(2n) {
+  background-color: rgb(183, 183, 183);
+}
+
+.table__tr td {
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #000;
+}
+
+thead .table__tr {
+  background-color: transparent;
+}
+
+th:last-child {
+  padding-left: 5px;
+}
+
+.btn-add {
+  padding: 10px;
+  outline: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: rgba(16, 37, 58, 0.695);
+  color: #fff;
+}
